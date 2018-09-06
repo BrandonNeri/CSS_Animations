@@ -1,0 +1,28 @@
+.holder{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.button{
+	width: 80px;
+	height: 40px;
+	background: grey;
+	border-radius: 30px;
+	padding: 5px;
+	transition: all 100ms ease-in-out;
+}
+.button > .innerButton{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #fff;
+	transition: all 100ms ease-in-out;
+}
+.button.active{
+	background: dodgerblue;
+}
+.button.active > .innerButton{
+	margin-left: 40px;
+}

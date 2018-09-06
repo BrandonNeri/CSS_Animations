@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: lightblue;
+	overflow: hidden;
+}
+.pointer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	width: 60px;
+	height: 60px;
+	background: rgba(100, 100, 255, 1);
+	border: 1px solid rgba(100, 100, 255, 1);
+	border-radius: 50%;
+	pointer-events: none;
+	box-sizing: border-box;
+}
