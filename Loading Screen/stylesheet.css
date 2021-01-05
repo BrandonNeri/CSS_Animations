@@ -1,5 +1,5 @@
 body{
-    background: #2b2b2b;
+    background: #cfcfcf;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@ body{
 .loader span{
     font-family: arial;
     font-size: 24px;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(158, 158, 158, 0.5);
     display: inline-block;
     transition: all 0.5s;
     animation: animate 2s infinite;
@@ -41,18 +41,18 @@ body{
 }
 @keyframes animate{
     0%{
-        color: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 0, 0, 0.1);
         transform: translateY(0);
         margin-left: 0;
     }
     25%{
-        color: yellow;
+        color: rgb(255, 38, 38);
         transform: translateY(-15px);
         margin-left: 10px;
         text-shadow: 0 15px 5px rgba(0,0,0,1);
     }
     100%{
-        color: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 0, 0, 0.1);
         transform: translateY(0);
     }
 }

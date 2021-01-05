@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #34495e;
+    background: #d4d4d4;
 }
 
 .box {
@@ -12,8 +12,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: #191919;
+    background: #202020;
     text-align: center;
+    border-radius: 30px;
 }
 
 .box h1 {
@@ -28,7 +29,7 @@ body {
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #3498db;
+    border: 2px solid #0099ff;
     padding: 14px 10px;
     width: 200px;
     outline: none;
@@ -38,8 +39,7 @@ body {
 }
 
 .box input[type = "text"]:focus, .box input[type = "password"]:focus {
-    width: 280px;
-    border-color: #2ecc71;
+    border-color: #0bad4f;
 } 
 
 .box input[type = "button"] {
@@ -48,7 +48,7 @@ body {
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #2ecc71;
+    border: 2px solid #0bad4f;
     padding: 14px 40px;
     outline: none;
     color: #ffffff;
@@ -58,5 +58,5 @@ body {
 }
 
 .box input[type = "button"]:hover {
-    background: #2ecc71;
+    background: #0bad4f;
 }

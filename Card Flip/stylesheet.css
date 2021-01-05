@@ -1,5 +1,5 @@
 body {
-    background: #292929;
+    background: #4183ff;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -14,19 +14,20 @@ body {
     position: relative;
     width: 150px;
     height: 150px;
-    background: #fff;
+    background: rgb(0, 0, 0);
     transform-style: preserve-3d;
     transition: 0.5s ease;
     box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
-.facebook {
-    background: #3b5998;
+.card1 {
+    background: #fff;
 }
-.twitter {
-    background: #00aced;
+.card2 {
+    background: #fff;
 }
-.googleplus {
-    background: #dd4b39;
+.card3 {
+    background: #fff;
 }
 .card-back {
     position: absolute;
@@ -34,7 +35,7 @@ body {
     left: 0;
     width: 150px;
     height: 150px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     backface-visibility: hidden;
 }
 
@@ -48,7 +49,7 @@ body {
     left: 0;
     width: 150px;
     height: 150px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     backface-visibility: hidden;
 }
 .card-back {
